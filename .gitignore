@@ -1,6 +1,9 @@
 # Created by https://www.gitignore.io/api/flutter
 # Edit at https://www.gitignore.io/?templates=flutter
 
+## Pessoal ###
+playdice.dart
+
 ### Flutter ###
 # Flutter/Dart/Pub related
 **/doc/api/
