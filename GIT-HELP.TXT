@@ -12,7 +12,7 @@ Configurando
 	git config --global user.email "seuEmaillánoGitHub"
 	git --list	<- Só para conferir
 
-Clonando um novo repositório
+Clonando um novo repositorio
 
 	1) A partir da pasta principal onde foi configurado o GIT
 
