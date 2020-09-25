@@ -1,0 +1,43 @@
+Instalar o GIT
+
+	sudo apt-get install git -y
+
+Verificar a versão
+
+	git --version
+
+Configurando
+
+	git config --global user.name "seuNomelánoGitHub"
+	git config --global user.email "seuEmaillánoGitHub"
+	git --list	<- Só para conferir
+
+Clonando um novo repositório
+
+	1) A partir da pasta principal onde foi configurado o GIT
+
+		git clone "https://github.com/ravaiano/annoyingdices.git"
+
+	* O endereço acima é copiado a partir do botão "Clone or Download"
+	  do repositório dentro da página do GitHub
+
+	2) Depois basta entrar no repositório "cd annoyingdices" e conferir "ls"
+	
+Reinicializando ou Atualizando seu repositório	Origem: [Github] Destino: [seu Desktop]
+
+	git init	
+	git pull
+
+Adicionando novos arquivos ou pastas
+
+	git status	<- Mostra em vermelho os arquivos novos. Use o seguinte comando 
+			   para adicioná-los ao Commit 
+	git add xxxxx	<- xxxxx é o nome do arquivo ou da pasta. Depois disso você pode
+			   utilizar o git status para verificar que o nome dele ficou verde 
+Commit e Push
+
+	git commit -m "Escreva aqui um comentário que vá servir de orientação no futuro"
+
+	git push -u origin master	<- Coloque o seu nomeGitUsuário e a senha
+	
+Fonte: https://www.youtube.com/watch?v=ZMgLZUYd8Cw&t=694s
